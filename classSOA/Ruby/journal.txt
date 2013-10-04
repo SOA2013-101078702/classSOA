@@ -1,0 +1,21 @@
+2013.10.02
+
+"Shuting" -> string
+"Shuting" -> reverse
+number can not reverse diresctly.
+40.to_s.reverse
+
+2013.10.04
+ticket = [A, B, C,]   -----> any number 
+arrays 
+
+practice on tryruby:
+print poem  ---> can read a poem
+poem.lines.to_a.reverse    to_a ----> to array than the line can be reverse
+poem include ? "my hand"
+
+----------------------------
+{ } ----->hash
+//:splendid     //:mediocre  //:abysmal
+
+
