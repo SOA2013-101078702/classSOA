@@ -1,0 +1,19 @@
+install myrottenpotatoes 
+
+bundle install --without production
+
+but in this part happened some error,
+-----------------------
+Gem::RemoteFetcher::FetchError: Errno::ETIMEDOUT: Connection timed out - connect(2) (https://rubygems.org/gems/tzinfo-0.3.37.gem)
+An error occurred while installing tzinfo (0.3.37), and Bundler cannot continue.
+Make sure that `gem install tzinfo -v '0.3.37'` succeeds before bundling.
+
+
+NoMethodError: undefined method `size' for nil:NilClass
+An error occurred while installing rdoc (3.12.2), and Bundler cannot continue.
+Make sure that `gem install rdoc -v '3.12.2'` succeeds before bundling.
+-------------------------
+Elenphant and Anna help me to figure out what's worng ,and we think the problem is the internet connection too slow !
+Coz we have tried it more than 5 times. Finally, I change the place and other wifi , It work !! too happy 
+
+and follow the direction of the book 

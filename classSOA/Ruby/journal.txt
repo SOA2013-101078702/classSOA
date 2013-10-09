@@ -17,5 +17,19 @@ poem include ? "my hand"
 ----------------------------
 { } ----->hash
 //:splendid     //:mediocre  //:abysmal
+-------------------
+books.keys ==>book name  
+books.values ===> book rating , value"s"
+-------------------- not understand---------------
+> ratings = Hash.­new(0)
+=> {}
 
+> books.valu­es.each { |rate­| ratin­gs[rate] += 1 }
+=> [:splendid]
+> ratings
+=> {:splendid=>1}
+ -------------------
+: symbol 
+{} Hash
+-----------------
 
