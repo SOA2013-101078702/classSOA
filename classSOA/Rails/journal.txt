@@ -17,3 +17,29 @@ Elenphant and Anna help me to figure out what's worng ,and we think the problem 
 Coz we have tried it more than 5 times. Finally, I change the place and other wifi , It work !! too happy 
 
 and follow the direction of the book 
+------------------------------------
+
+2013/10/13
+
+saasbook@saasbook:~/Documents/classSOA/myrottenpotatoes$ rails generate migration create_movies
+      invoke  active_record
+      create    db/migrate/20131013093055_create_movies.rb
+ 
+ 
+在db/seed.rb 把檔案貼上去。
+rails c ===> rails console
+Movie.all
+ 
+---------------------
+4.4. Views and Controller
+同時新增views and controller的資料，然後http就會有資料可以看
+ 
+class Movie
+Moviescontroller.rb
+第一 def index
+第二 def show
+ 
+-# in app/views/movies/show.html.haml  新增電影detail資料
+ 
+----------------------------------------
+/* Add these lines to app/assets/stylesheets/application.css */  改變版面設計
